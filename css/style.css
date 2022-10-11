@@ -22,20 +22,53 @@
 /*******************************************/
 
 body {
+     height: 100vh;
+     background-color: var(background);
+     font-family: Ubuntu, sans-serif;
+}
 
+:root {
+     background: #011936;
+     color: #ffffff;
+     placeholder: #D3D0CB;
+}
+
+section{
+     height: 33.333%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+h1{
+     color: var(color);
+     font-family: 'Permanent Marker', cursive;
+     font-size: 4rem;
 }
 
-footer {
-
+button,
+input{
+     height: 11%;
+     border-radius: 15px;
+     border: none;
+     font-size: .7rem;
 }
+
+input{
+     width: 25%;
+     padding-left: 1%;
+}
+
+button{
+     margin-left: 1%;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
