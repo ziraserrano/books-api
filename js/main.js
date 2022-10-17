@@ -4,7 +4,7 @@ function getBook(){
   const subject = document.querySelector('input').value
   console.log(subject)
 
-  const url = `http://openlibrary.org/subjects/${subject}.json`
+  const url = `https://openlibrary.org/subjects/${subject}.json`
 
   fetch(url)
       .then(res => res.json()) // parse response as JSON
