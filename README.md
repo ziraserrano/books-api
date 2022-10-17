@@ -18,9 +18,9 @@ Simple Web App created to search for books by subject using <a href="https://ope
 
 ## Optimizations
 
-When I improve this project...
+When I improve this project, I would like to add an image of the cover of the book being searched. I realize I have to do more research on how to get random books out of the data array. As far as speed, I'd like to improve how quickly the data renders to the browser. 
 
 ## Lessons Learned:
 
-I learned...
+I learned how to sort through the data with the help of <a href="https://www.postman.com/">Postman</a>. I also became better at rendering the data I wanted to see to the browser. I also noticed some data that had no information, so I replaced null with something more easily understood by the user (ie. ISBN: Not Found.).
 
